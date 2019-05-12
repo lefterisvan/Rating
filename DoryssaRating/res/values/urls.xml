@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Use the ip "10.0.2.2" to connect to the host OS -->
+	 <string name="hostname">10.0.2.2</string>
+	 <!-- the port e.g. 8080,8888 or 80 -->
+	 <string name="port">80</string>
+	 <!-- http or https -->
+	 <string name="scheme">http</string>
+	<!-- εδώ βάζουμε τα διαφορα Url -->
+	 <string name="setRatingUrl">/rating/set_rating.php</string>
+	 <string name="setRatingRestaurants">/rating/restaurants.php</string>
+	 <string name="setRatingBars">/rating/bars.php</string>
+	 <string name="setRatingRating_Main_Building">/rating/rating_main_building.php</string>
+	 <string name="setRatingRating_Village">/rating/rating_village.php</string>
+
+</resources>

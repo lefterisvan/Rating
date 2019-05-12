@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hotelrest" >
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:text="Village \nRestaurant "           
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarR1"
+        android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView2"
+            android:text="Hotel \nRestaurant"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarR2"
+        android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView3"
+            android:text="Kafenio"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarR3"
+        android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView4"
+            android:text="A la carte"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarR4"
+        android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView5"
+            android:lines="2"
+            android:text="Room \nService"
+            
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarR5"
+        android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+    
+     <LinearLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <Button
+        android:id="@+id/buttonRSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+      
+        android:background="#91A3B0"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#91A3B0" />
+    </LinearLayout>
+    
+    </TableLayout>

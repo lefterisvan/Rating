@@ -1,0 +1,59 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/v_president"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="339dp" >
+            
+                 <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="302dp"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:background="#50000000"
+        android:text="These impressive suites are the pinnacle of luxurious living in the island. Next to the living room with the particular decoration and the modern furniture is the dining room and the WC. In the separate bedroom dominates the king size bed and the exclusive bathroom. 
+The terrace offers a great view of the Aegean.
+
+• King size bed
+• Balcony with sea view and terrace at the entrance with garden furniture
+• 1 WC and 1bathroom with bathtub and Jacuzzi
+• Floors made of stone 
+• Work desk
+• Refrigerator
+• 2 LCD TV’S
+• Pay TV and Satellite TV
+• Free internet by using a cable
+• Environmentally-friendly mattress COCO-MAT and selected pillows
+• Luxury cotton towels and slippers
+• Hair dryer
+• Safety box
+• Direct phone line"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+           
+        </ScrollView>
+                 
+        
+       
+
+</LinearLayout>

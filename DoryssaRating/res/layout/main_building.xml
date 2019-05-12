@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbuilding"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.84" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.14"
+                android:src="@drawable/logo" />
+
+            <Button
+                android:id="@+id/buttonGardenView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:background="#91A3B0"
+                android:text="Classic Garden View 22m²"
+                android:textColor="#FFFFFF"
+                android:textColorLink="#91A3B0" />
+
+            <Button
+                android:id="@+id/buttonClassicSea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:background="#91A3B0"
+                android:text="Classic Sea View 22m²"
+                android:textColor="#FFFFFF"
+                android:textColorLink="#91A3B0" />
+
+            <Button
+                android:id="@+id/buttonExecutive"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:background="#91A3B0"
+                android:text="Executive Sea view 30m²"
+                android:textColor="#FFFFFF"
+                android:textColorLink="#91A3B0" />
+
+            <Button
+                android:id="@+id/buttonFamily"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:background="#91A3B0"
+                android:text="Family Suite 32m²"
+                android:textColor="#FFFFFF"
+                android:textColorLink="#91A3B0" />
+
+            <Button
+                android:id="@+id/buttonDeluxe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:background="#91A3B0"
+                android:text="Deluxe Junior Suite View 40m²"
+                android:textColor="#FFFFFF"
+                android:textColorLink="#91A3B0" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    
+
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resturant"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_bg" />
+
+      <Button
+            android:id="@+id/buttonRestaurants"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:background="#91A3B0"
+            android:text="Restaurants"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#91A3B0" />
+       <Button
+            android:id="@+id/buttonBars"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:background="#91A3B0"
+            android:text="Bars"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#91A3B0" />
+    
+    
+</LinearLayout>

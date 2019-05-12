@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DoryssaRating</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_the_village">TheVillage</string>
+    <string name="title_activity_v__beach__front_25">V_Beach_Front_25</string>
+    <string name="title_activity_v_classic_garden">V_classic_garden</string>
+    <string name="title_activity_family_suite">Family_suite</string>
+    <string name="title_activity_v__suite_50">V_Suite_50</string>
+    <string name="title_activity_v__president">V_President</string>
+    <string name="title_activity_main_building">Main_building</string>
+    <string name="title_activity_m_classic_view">M_classic_view</string>
+    <string name="title_activity_m_clasic_sea">M_clasic_sea</string>
+    <string name="title_activity_m_executive">M_executive</string>
+    <string name="title_activity_m_family">M_family</string>
+    <string name="title_activity_m_deluxe">M_deluxe</string>
+    <string name="title_activity_rating_village">Rating_village</string>
+    <string name="title_activity_rating_mainbuilding">Rating_mainbuilding</string>
+    <string name="title_activity_comments">Comments</string>
+    <string name="title_activity_resurts__page">Resurts_Page</string>
+
+</resources>

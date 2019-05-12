@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aegean.doryssarating"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET" /> 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.aegean.doryssarating.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Basic_Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.BASIC_MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Hotel_Details"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.HOTEL_DETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Rooms_And_Suites"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.ROOMSANDSUITES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.TheVillage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.THE_VILLAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Main_building"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.MAIN_BUILDING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.V_classic_garden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.V_CLASSIC_GARDEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.V_Beach_Front_25"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.V__BEACH__FRONT_25" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Family_suite"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.FAMILY_SUITE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.V_Suite_50"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.V__SUITE_50" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.V_President"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.V_PRESIDENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.M_clasic_sea"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.M_CLASIC_SEA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.M_classic_view"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.M_CLASSIC_VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.M_deluxe"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.M_DELUXE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.M_executive"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.M_EXECUTIVE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.M_family"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.M_FAMILY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Rate_Our_Facilities"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.RATE_OUR_FACILITIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Activities_And_Facilities"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.ACTIVITIES_AND_FACILITIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Dining_Bars"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.DINING_BARS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Accommodation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.ACCOMMONDATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Rating_mainbuilding"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.RATING_MAINBUILDING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Rating_village"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.RATING_VILLAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Restaurants"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.RESTAURANTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Bars"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.aegean.BARS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aegean.doryssarating.Resurts_Page"
+            android:label="@string/title_activity_resurts__page" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/mainfamily"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_bg" />
+
+    </LinearLayout>
+
+
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+           <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="302dp"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="Doryssa Seaside Resort cares for the needs of families. These newly constructed suites have been designed to accommodate a family of four. All suites consist of 2 separate bedrooms, one bathroom and have pool or garden view.
+
+• 1 Double bed and 2 single beds 
+• Balcony
+• Bathroom with shower
+• Carpet or floor with cement mortar
+• Work desk
+• Refrigerator
+• 2 LCD TV’S
+• Pay TV and Satellite TV
+• Free wireless internet 
+• Environmentally-friendly mattress COCO-MAT and selected pillows
+• Luxury cotton towels and slippers
+• Hair dryer
+• Safety box
+• Direct phone line
+"
+        android:textColor="#FFFFFF"
+		android:background="#50000000"        
+        android:textSize="16sp"
+        android:textStyle="italic"
+ />
+            </LinearLayout>
+        </ScrollView>
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                 <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="302dp"
+        android:layout_alignLeft="@+id/scrollView1"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="
+"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="italic" />
+            </LinearLayout>
+        
+       
+
+</LinearLayout>

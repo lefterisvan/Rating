@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/hotelnight" >
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:text="Classic Garden \nView 22m²"           
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="14sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarRM1"
+       android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView2"
+            android:text="Classic Sea \nView 22m²"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="14sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarRM2"
+        android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView3"
+            android:text="Executive Sea \nView 30m²"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarRM3"
+        android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView4"
+            android:text="Family \nSuite 32m²"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" 
+            android:textSize="14sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarRM4"
+        android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView5"
+            android:lines="2"
+            android:text="Deluxe Junior \nSuite View 100m²"
+            android:textStyle="bold"
+            
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"  />
+ 
+        <RatingBar
+        android:id="@+id/ratingBarRM5"
+       android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+       		android:numStars="3"
+        	android:stepSize="0.5"
+         	android:rating="0.5"  />
+    </TableRow>
+    
+     <LinearLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <Button
+        android:id="@+id/buttonRMSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+      
+        android:background="#91A3B0"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#91A3B0" />
+    </LinearLayout>
+    
+    </TableLayout>
